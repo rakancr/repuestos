@@ -1,0 +1,146 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}
+
+/* Hero Section */
+.jumbotron {
+    background: url('https://example.com/hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+}
+
+.jumbotron .btn {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.jumbotron .btn:hover {
+    background-color: #e0a800;
+}
+
+/* Cards (Productos) */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.card .btn {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e0a800;
+    text-decoration: underline;
+}
+
+/* Contact Form */
+form label {
+    font-weight: 500;
+    color: #343a40;
+}
+
+form input, form textarea {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+    background-color: #007bff;
+    border: none;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Ofertas Section */
+.alert {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 2.5rem;
+    }
+
+    .jumbotron p {
+        font-size: 1rem;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+}
+
